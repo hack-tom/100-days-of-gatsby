@@ -53,6 +53,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  color: #4ae452;
 }
 a:active,
 a:hover {
@@ -128,7 +130,7 @@ kbd,
 pre,
 samp {
   font-family: monospace;
-  font-size: 1em;
+  font-size: 80%;
 }
 figure {
   margin-left: 0;
@@ -520,8 +522,8 @@ li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 code {
-  font-size: 0.85rem;
-  line-height: 1.45rem;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
 }
 kbd {
   font-size: 0.85rem;
